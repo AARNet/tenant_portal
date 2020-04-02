@@ -1,0 +1,52 @@
+.section {
+}
+#content-wrapper {
+    background: #f7f7f7 !important;
+}
+.collaborators_reset_password {
+    margin: 2rem auto !important;
+    padding: 2rem;
+    width: 27rem;
+    background: #e1e1e1;
+    text-align: center;
+}
+.collaborators_reset_password input[type=button], .invalid_token_reset_button {
+    background-color: #FF9302 !important;
+    border: 1px solid #FF9302 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    border-radius: 30px !important;
+    padding: 7px 20px 7px 20px !important;
+    margin-top: 1rem !important;
+}
+.collaborators_reset_password input[type=button]:hover {
+    box-shadow: 0 0 0 3px #212121;
+}
+.collaborators_reset_input {
+    display: block;
+    width: 26rem !important;
+    margin-top: 0.5rem !important;
+}
+
+#result_message {
+    padding: 5px;
+    border-radius: 4px;
+    margin: 15px;
+}
+
+#result_message.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+}
+
+#result_message.fail {
+    color: #a94442;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+}
+
+.g-recaptcha div {
+    margin: auto;
+    padding: 0.5rem;
+}

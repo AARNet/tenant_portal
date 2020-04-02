@@ -1,0 +1,42 @@
+### stable-1.0.8
+* Ability to increase/decrease user quotas
+* Added used quota column to group drives list
+* Added check to make sure a user has logged in previously before they're able to be impersonated
+
+### stable-1.0.7
+* Audit logging
+
+### stable-1.0.6
+* Create group drives
+* Improve load time of user information
+
+### stable-1.0.5
+* Added toggle for impersonate (on by default)
+
+### stable-1.0.4
+* Added Collaborators (virtual accounts, managed by the tenant)
+* Minor bug fixes
+
+### stable-1.0.3
+* Added create/delete user groups
+* Added being able to assign/remove users to/from user groups
+* Reduced time it takes user information to be retrieved (needs further work)
+* Replaced buttons with icons
+* Added confirmation dialogs to any delete/remove action
+* Refactored javascript to remove redundant ajax calls
+
+### stable-1.0.2
+* Split statistics and users into separate pages
+* Added administration page
+* Added ability to assign a purchased quota to a tenant
+* Added total, used and remaining purchased quota to statistics page
+* Added impersonate feature to users page
+* Added used quota and total quota for each user to users page
+
+### stable-0.0.2
+* Initial release
+* Create/remove tenants
+* Assign/remove domains from tenants
+* Assign/remove additional users to tenants
+* Assign/remove authorised users
+* View statistics for total users and storage used

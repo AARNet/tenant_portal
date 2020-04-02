@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<info>
+        <id>tenant_portal</id>
+        <namespace>Tenant_Portal</namespace>
+        <name>Tenant Portal</name>
+        <description>This app adds group and user management for tenants.</description>
+        <author>Michael Usher</author>
+        <shipped>false</shipped>
+        <version>1.0.8</version>
+	<category>productivity</category>
+	<use-migrations>true</use-migrations>
+        <dependencies>
+                <owncloud min-version="10.0" max-version="10" />
+        </dependencies>
+
+</info>

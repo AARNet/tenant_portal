@@ -1,0 +1,250 @@
+.colorbox-content {
+	padding: 1rem;
+}
+
+.tenantInlineForm {
+	background: rgba(240,240,240,.9);
+	display: inline-block;
+	padding: 0.5rem;
+	margin: 1rem auto;
+}
+
+.tenantButton {
+	background-color: #FF9302 !important;
+	color: #fff !important;
+	border: 1px solid #FF9302 !important;
+	width: auto;
+	min-width: 55px !important;
+	padding: 5px;
+	font-weight: 600;
+	cursor: pointer;
+	margin: 3px 3px 3px 0;
+	font-size: 13px;
+	outline: none;
+	border-radius: 3px;
+}
+.tenantButton:hover {
+	box-shadow: 0 0 0 3px #212121;
+}
+
+#impersonateStatus {
+	width: 147px;
+	display: inline-block;
+}
+
+.grid {
+	width: 100%;
+}
+
+.grid th, .grid td {
+	border-bottom: 1px solid #ddd;
+	padding: 0 0.5em;
+	padding-left: 0.8em;
+	text-align: left;
+	font-weight: normal;
+}
+
+.grid thead tr th {
+	height: 2em;
+	color: #999;
+}
+
+.grid tbody tr td {
+	height: 36px;
+/*	padding: 5px;*/
+}
+
+.grid tbody tr td.actions, td.actions {
+	text-align: right;
+}
+td.actions a.action {
+	vertical-align: middle;
+	margin-left: 0.5rem;
+}
+.tenantName,
+.domainName,
+.userName,
+.additionalUserName,
+.projectName {
+	cursor: pointer;
+}
+.addInput {
+	width: 15rem !important;
+}
+.pageHeading {
+	color: #555;
+	padding: 2rem 1rem 1rem;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.section {
+	margin-top: 30px;
+	display: block;
+	padding: 30px;
+	color: #555;
+	border-top: 1px solid #ddd;
+	position: relative;
+	margin-bottom: 24px;
+}
+.section_description {
+	margin-left: 0.7rem;
+}
+
+.section_description p {
+	padding: 0.5em 0.5em 1em;
+}
+
+.statChart {
+	display: inline-block;
+	width: 49%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.statChart {
+		width: 100%;
+		display: block;
+	}
+}
+
+.breadcrumb_divider {
+	color: #bbb;
+}
+.breadcrumb_page {
+	color: #FF9302;
+}
+
+#statCards {
+	text-align: center;
+}
+
+.statCSVs {
+	text-align: center;
+}
+.statCSV {
+	border: 1px #ddd solid;
+	display: inline-block;
+	padding: 1em;
+	margin: 1.0em;
+	text-align: center;
+	height: 6rem;
+}
+.statCard h3, .statCSV h3 {
+	height: 2.5rem;
+}
+.statCSV span {
+	width: 100%;
+	display: inline-block;
+}
+.statCard {
+	border: 1px #ddd solid;
+	display: inline-block;
+	padding: 1em;
+	margin: 1.5em;
+	text-align: center;
+	width: 8rem;
+	height: 6rem;
+	max-width: 8rem;
+}
+.statCard h3 {
+	height: 2.5rem;
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+.statCard span {
+	border-top: 1px #FF9302 solid;
+	padding-top: 0.5rem;
+	font-size: 1.5em;
+	width: 100%;
+	display: inline-block;
+}
+
+/* Datatables overrides */
+table.dataTable thead th, table.dataTable thead td {
+	border-bottom: 1px solid #ddd;
+	padding: 0 0.5em;
+	padding-left: 0.8em;
+	text-align: left;
+	font-weight: normal;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 0 0.8em;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	background: none;
+	border: 1px solid rgba(240,240,240,.9);
+}
+
+.paginate_button {
+	background: none;
+	width: auto;
+	min-width: 25px;
+	padding: 5px;
+	background-color: rgba(240,240,240,.9);
+	font-weight: 600;
+	color: #555;
+	border: 1px solid rgba(240,240,240,.9);
+	cursor: pointer;
+	outline: none;
+	border-radius: 3px;
+	font-size: 13px;
+	margin: 3px 3px 3px 0;
+	font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
+	font-weight: bold;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.paginate_button:hover {
+	background: none;
+	background-color: rgba(255, 255, 255, .95);
+	color: #111 !important;
+	border: 1px solid rgba(240,240,240,.9);
+}
+
+.userDetails tr td:first-child,
+.tenantDetails tr td:first-child,
+.projectDetails tr td:first-child {
+	font-weight: bold;
+	width: 10rem;
+}
+
+.userDetails tr td,
+.tenantDetails tr td,
+.projectDetails tr td {
+	height: 38px;
+}
+.userDetails tr td:hover,
+.tenantDetails tr:hover,
+.projectDetails tr:hover {
+	background: none;
+}
+
+#usersTable tr td,
+#tenantsTable tr td,
+#projectTable tr td,
+#userGroupsTable tr td {
+	cursor: pointer;
+}
+
+#addProjectQuota {
+	width: 5rem !important;
+}
+
+.userView div h2, .projectView div h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+#addProjectMember {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}
